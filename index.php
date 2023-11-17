@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index_css.css">
     </head>
 <body> 
-         
+
     <div class="slider">
 
         <div class="slides">

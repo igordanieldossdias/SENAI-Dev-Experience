@@ -4,21 +4,27 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    background: black;
+}
+
+.foco{
+    width: 100%;
+    height: auto;
+    background: url() no-repeat center;
+    background-size: cover;
 }
 
 .slider {
-    margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    margin: 0 0 0 0;
+    width: 120%;
+    height: 664px;
     overflow: hidden;
 
 }
 
 .slides {
     width: 400%;
-    height: 400px;
+    height: 664px;
     display: flex;
 }
 
@@ -31,13 +37,14 @@ body{
     position: relative;
 }
 
-.slid img{
-    width: 800px;
+.slide img{
+    width: 100%;
+    height: 664px;
 }
 
 .manual-nav{
     position: absolute;
-    width: 800px;
+    width: 332px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -75,26 +82,6 @@ body{
 
 }
 
-#radio4:checked ~ .um{
-    margin-left: -75%;
-}
-
-.navegacao-auto div{
-    border:2px solid blue;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.navegacao-auto{
-    position: absolute;
-    width: 800px;
-    margin-top: 360px;
-    display: flex;
-    justify-content: center;
-}
-
 .navegacao-auto div:not(:last-child){
     margin-right: 40px;
 }
@@ -113,4 +100,12 @@ body{
 
 #radio4:checked ~ .navegacao-auto .auto4{
     background-color: #fff;
+}
+
+h1{
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 41%;
+    color: #fff;
 }

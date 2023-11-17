@@ -1,9 +1,9 @@
-/*let count = 1
+let count = 1
 document.getElementById("radio1").checked = true;
 
 setInterval ( function(){
     proximg();
-}, 2000)
+}, 10000)
 
 function proximg(){
     count ++;
@@ -13,4 +13,4 @@ function proximg(){
 
     document.getElementById("radio"+count).checked = true;
 
-}*/
+}

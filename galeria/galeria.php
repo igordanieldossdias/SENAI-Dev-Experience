@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="galeria_css.css">
     </head>
 <body> 
-         
+<h1>Galeria de imagens</h1>  
     <div class="slider">
 
         <div class="slides">
