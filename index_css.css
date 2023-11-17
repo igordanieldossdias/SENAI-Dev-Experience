@@ -4,7 +4,11 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
+<<<<<<< HEAD
     background-color: black;
+=======
+    background: black;
+>>>>>>> b2c40e7d6c99c5875d350710c4600cc4fce97843
 }
 
 .foco{

@@ -3,7 +3,7 @@ document.getElementById("radio1").checked = true;
 
 setInterval ( function(){
     proximg();
-}, 2000)
+}, 10000)
 
 function proximg(){
     count ++;
