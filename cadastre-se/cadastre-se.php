@@ -1,3 +1,6 @@
+<?php 
+include "conexao.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -15,7 +18,7 @@
             <img src="Banner - Login2.png" alt="logo do evento">
         </div>
         <div class="form">
-            <form action="#" method="post">
+            <form action="cadastrar-se.php" method="post">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre-se</h1>
@@ -26,7 +29,7 @@
                 <div class="input-group">
                     <div class="input-box">
                         <label for="firstname">Nome completo:</label>
-                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome completo:" required>
+                        <input id="firstname" type="text" name="nome" placeholder="Digite seu nome completo:" required>
                     </div>
 
                     <div class="input-box">
@@ -41,12 +44,12 @@
 
                     <div class="input-box">
                         <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        <input id="password" type="password" name="senha" placeholder="Digite sua senha" required>
                     </div>
                 </div>
 
                 <div class="continue-button">
-                    <button type="submit"><a href="#">Continuar</a></button>
+                    <button type="submit"><a href="index.php">Continuar</a></button>
                 </div>
             </form>
         </div>
